@@ -1,0 +1,36 @@
+{
+  "title": "本周 AI 动态简报",
+  "subtitle": "自动抓取多个 RSS/Atom 来源，并生成中文 HTML 快报。",
+  "period": "最近 7 天",
+  "keywords": ["agent", "reasoning", "video", "open source", "benchmark"],
+  "sources": [
+    {
+      "name": "Hugging Face Blog",
+      "platform": "Hugging Face",
+      "type": "rss",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "priority": 3
+    },
+    {
+      "name": "OpenAI News",
+      "platform": "官方博客",
+      "type": "rss",
+      "url": "https://openai.com/news/rss.xml",
+      "priority": 3
+    },
+    {
+      "name": "Transformers Releases",
+      "platform": "GitHub",
+      "type": "atom",
+      "url": "https://github.com/huggingface/transformers/releases.atom",
+      "priority": 2
+    },
+    {
+      "name": "Diffusers Releases",
+      "platform": "GitHub",
+      "type": "atom",
+      "url": "https://github.com/huggingface/diffusers/releases.atom",
+      "priority": 2
+    }
+  ]
+}

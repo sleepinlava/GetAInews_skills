@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 动态追踪"
+  short_description: "抓取多平台 AI 进展并生成中文可视化 HTML 简报"
+  default_prompt: "Use $track-ai-updates to 抓取最近的 AI 发展动态，并输出一个设计感较强的中文 HTML 简报。"
